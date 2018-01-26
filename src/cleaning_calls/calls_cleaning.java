@@ -4,7 +4,6 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class calls_cleaning
@@ -14,7 +13,7 @@ public static void main(String[] args)
     throws IOException
   {
     int n = 0;
-    int lb = 0;int rb = 0;int line = 0;
+//    int lb = 0;int rb = 0;int line = 0;
     
     File file = new File(System.getProperty("user.dir") + "/resources/action.c");
     File file2 = new File(System.getProperty("user.dir") + "/resources/removed_unwanted_Script.txt");
