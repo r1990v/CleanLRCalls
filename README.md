@@ -1,1 +1,1 @@
-# CleanLRCalls
+# Clean unwanted calls from LoadRunner Script
